@@ -1,0 +1,39 @@
+.input{
+    width: 45%;
+    height: 30px;
+
+    border: none;
+    border-radius: 7px;
+    background: #efefef;
+    outline: none;
+
+    padding: 0 20px;
+    margin-bottom: 15px;
+
+    transition: background .2s linear;
+
+    &:focus, &:hover{
+        background: #e7e7e7;
+    }
+}
+.button{
+    display: block;
+    width: 100px;
+    height: 30px;
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+
+    border: none;
+    border-radius: 7px;
+    background: #5693f1;
+    margin: 0 auto 50px;
+
+    cursor: pointer;
+    transition: background .2s linear;
+
+    &:hover{
+        background: #3b84f5;
+    }
+}

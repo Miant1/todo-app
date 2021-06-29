@@ -1,0 +1,26 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    height: auto;
+
+    margin: 0 auto 10px;
+    padding: 10px 20px;
+    border: #eaeaea 1px solid;
+    border-radius: 10px;
+
+    .text{
+        display: flex;
+
+        input{
+            cursor: pointer;
+        }
+        p{
+            margin-left: 20px;
+        }
+    }
+    i{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}

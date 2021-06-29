@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,p,a{
+    margin: 0;
+    padding: 0;
+
+}
+.app{
+    text-align: center;
+
+    h1{
+        font-size: 130px;
+        font-weight: 200;
+        line-height: 120px;
+        color: #434958;
+
+        margin-top: 60px;
+    }
+    h3{
+        font-size: 14px;
+        font-weight: 700;
+        color: #626a80;
+
+        margin-bottom: 50px;
+    }
+}
